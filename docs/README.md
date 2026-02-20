@@ -2,8 +2,21 @@
 
 OctoAcme runs projects through a clear lifecycle: initiation, planning, execution, release, and retrospective—anchored in small, iterative deliveries and clear process gates. Projects begin with lightweight initiation: a Project One-pager defining the problem, success metrics, stakeholders, and high-level timeline. Planning transforms this into a prioritized backlog with explicit acceptance criteria, sizing, and a clear Definition of Done. Key risks and dependencies are captured early in a Risk Register and revisited in regular syncs and retrospectives. The project board (Backlog → Ready → In Progress → In Review → QA → Done) is maintained as the single source of truth for work status.
 
-Roles and responsibilities are well defined. Project Managers coordinate end-to-end delivery, handle scheduling, risk tracking, and stakeholder alignment, ensuring the right information flows upstream when issues arise. Product Managers focus on customer and business value, own problem/solution framing and prioritization, and iterate outcome metrics. Developers build, test, and document features to meet acceptance criteria and participate in reviews and estimating. Quality is supported by QA, who validate implementation against acceptance criteria. All roles participate in escalating blockers or risk (team → PM → Product Lead → Sponsor), with security concerns following a distinct escalation path.
+Roles and responsibilities are well defined. Project Managers coordinate end-to-end delivery, handle scheduling, risk tracking, and stakeholder alignment, ensuring the right information flows upstream when issues arise. Product Managers focus on customer and business value, own problem/solution framing and prioritization, and iterate outcome metrics. Developers build, test, and document features to meet acceptance criteria and participate in reviews and estimating. QA Engineers own test planning and validation, gating features before release. UX/UI Designers ensure interfaces are intuitive and accessible. Release Managers coordinate safe, well-communicated deployments. Business Analysts translate business needs into clear requirements and acceptance criteria. All roles participate in escalating blockers or risk (team → PM → Product Lead → Sponsor), with security concerns following a distinct escalation path.
 
 Communication practices emphasize rhythm, clarity, and visibility. Daily standups focus on progress and blockers; weekly delivery syncs surface ongoing risks and celebrate wins. Scheduled demos or milestone reviews maintain alignment with stakeholders. Project documentation and reporting (issue templates, risk registers, project plans) are kept in the repository for transparency and traceability. Product and project leads meet regularly to review progress, with broader updates provided monthly to stakeholders.
 
 Quality assurance is woven throughout: automated unit, integration, and end-to-end smoke tests are required for critical functionality and checked in CI; small PRs (≤400 lines) undergo review and require clear references to issues and acceptance criteria before merging. Release processes include checklists, required smoke tests, rollback plans, and security checks. After releases or milestones, retrospectives convert learnings into actionable backlog items, ensuring a cycle of continuous improvement and living documentation.
+
+## Process Documents
+
+- [Project Management Overview](octoacme-project-management-overview.md)
+- [Project Initiation Guide](octoacme-project-initiation.md)
+- [Project Planning](octoacme-project-planning.md)
+- [Execution & Tracking](octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](octoacme-risks-and-communication.md)
+- [Release & Deployment Guide](octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
+- [Roles & Personas](octoacme-roles-and-personas.md)
+- [QA Testing Checklist](octoacme-qa-testing-checklist.md)
+- [Role Collaboration & Handoff Checklist](octoacme-role-collaboration-checklist.md)
